@@ -35,3 +35,9 @@ pip install -r requirements.txt
 python -m pytest -v
 python -m src.compare_methods
 python -m src.plot_convergence
+
+## Automated Testing
+
+![Python Tests](https://github.com/hargunsingh05/derivatives-pricing-engine/actions/workflows/tests.yml/badge.svg)
+
+The test suite runs automatically on pushes to `main` and pull requests targeting `main`.
